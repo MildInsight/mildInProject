@@ -98,7 +98,7 @@
 		</dependency>
         
         <!-- mysql이나 oracle 필요시 사용 -->
-        <!--
+        <!-- -->
         <dependency>
             <groupId>com.googlecode.log4jdbc</groupId>
             <artifactId>log4jdbc</artifactId>
@@ -128,9 +128,9 @@
             <artifactId>ojdbc</artifactId>
             <version>14</version>
             <scope>system</scope>
-            <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/ojdbc-14.jar</systemPath>
+            <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/ojdbc14.jar</systemPath>
         </dependency>
-        -->
+       
 	</dependencies>
 
 	<build>
